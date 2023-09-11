@@ -1,0 +1,253 @@
+body {
+  background-color: #e8e9fe;
+  margin: 0;
+  font-family: robot, arial;
+  color: #171650;
+}
+
+.mainbackground {
+  background-color: #ef4f39;
+  width: 250px;
+  position: fixed;
+  bottom: -40px;
+  top: -10px;
+  left: -30px;
+  border-radius: 40px;
+  z-index: -1;
+}
+
+.mainpage {
+  background-color: white;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  border-radius: 25px;
+}
+
+/*Plan by the right*/
+.rightmain {
+  margin-top: 140px;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.plan {
+  background-color: #ef4f39;
+  border-radius: 15px;
+  padding: 40px 25px;
+  color: white;
+  margin-right: 50px;
+}
+
+.plan h3 {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 10px 0 0 0;
+}
+
+.plan p {
+  font-size: 15px;
+  margin: 0px 0;
+}
+
+.plan button {
+  font-weight: 700;
+  padding: 8px 15px;
+  font-size: 15px;
+  border-radius: 7px;
+  color: white;
+  margin-top: 15px;
+  border: 1px solid white;
+  background-color: #ef4f39;
+}
+
+/*Order history*/
+.orderhistory {
+  margin: 50px 0;
+  flex: 1;
+}
+
+.all {
+  margin-top: 40px;
+}
+
+.gridtrans {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 0.7fr;
+}
+.gridtrans2 {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 0.7fr;
+  font-size: 15px;
+  color: #696693;
+}
+
+.gridtrans:hover {
+  padding: 5px;
+  box-shadow: 5px 5px 10px #e8e9fe;
+  border-radius: 5px;
+}
+
+.orderhistory h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.orderhistory h3 {
+  padding: 8px 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.payment h3,
+.dd h3 {
+  font-weight: 900;
+}
+
+.orderhistory p {
+  color: #696693;
+  font-size: 18px;
+  margin: 0;
+}
+
+.downbut {
+  font-size: 100%;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.5px solid navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.downbut:hover {
+  background-color: rgb(196, 192, 192);
+}
+.load a {
+  color: #ef4f39;
+}
+
+.load {
+  margin: 10px 0 60px 0;
+}
+
+.visa {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.visa h2 {
+  border: 0.5px solid #696693;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.visa p {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.visa button {
+  padding: 10px 14px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/*Profile by left*/
+.leftmain {
+  width: 230px;
+  padding-left: 35px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #f8f9fe;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.profilename p,
+.profilename h3 {
+  margin: 5px 0 0 0;
+}
+
+.tabmain p {
+  margin: 0;
+  padding: 0;
+}
+.profile {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 10px;
+  align-items: top;
+  height: 90px;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.tabmenu {
+  padding-bottom: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.appl p {
+  margin: 4px;
+}
+
+.appl {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  padding: 8px 0;
+  margin: 0;
+  align-items: center;
+}
+
+.appl:hover {
+  cursor: pointer;
+}
+
+.appl img {
+  width: 80%;
+}
+
+/* .logout {
+  height: 25px;
+} */
+
+.act {
+  position: relative;
+}
+
+.act p {
+  font-weight: 600;
+}
+
+.act span {
+  height: 100%;
+  width: 6%;
+  background-color: #ef4f39;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: -15px;
+  border-radius: 20px;
+}
